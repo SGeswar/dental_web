@@ -1,0 +1,33 @@
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .image-button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .image-button img {
+    width: 70px; 
+    height: 70px; 
+    object-fit: contain; 
+  }
+  
+  @media (max-width: 768px) {
+    .image-button img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
