@@ -41,7 +41,7 @@ export default function PastHistory() {
         }
         console.log(stage2)
         
-        navigate('/complaints', { state: { stage2 } });
+        navigate('/dental_web/complaints', { state: { stage2 } });
     }
     const handleHeartProblems = (event) => {
         setHeartProblems(event.target.checked);

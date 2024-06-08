@@ -149,7 +149,7 @@ export default function PersonalDetailsForm() {
         // Navigate to the next page
         console.log("Stage2",stage2)
         console.log("Stage3",stage3)
-        navigate('/billing', { state: { stage3 } });
+        navigate('/dental_web/billing', { state: { stage3 } });
     };
 
     return (

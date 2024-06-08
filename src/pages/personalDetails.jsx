@@ -36,7 +36,7 @@ export default function PersonalDetailsForm() {
             gender: selectedGender,
         };
         // Navigate to the next page
-        navigate('/complications', { state: { stage1 } });
+        navigate('/dental_web/complications', { state: { stage1 } });
     };
 
     return (

@@ -12,13 +12,12 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LoginPage/>}/>
-        <Route path="/details" element={<PersonalDetailsForm />} />
-        <Route path="/complications" element={<PastHistory/>} />
-        <Route path="/complaints" element={<Complaints/>} />
-        <Route path="/teethchart" element={<TeethImages/>}/>
-        <Route path="/billing" element={<BillingForm/>} />
-
+        <Route path="/dental_web" element={<LoginPage/>}/>
+        <Route path="/dental_web/details" element={<PersonalDetailsForm />} />
+        <Route path="/dental_web/complications" element={<PastHistory/>} />
+        <Route path="/dental_web/complaints" element={<Complaints/>} />
+        <Route path="/dental_web/teethchart" element={<TeethImages/>}/>
+        <Route path="/dental_web/billing" element={<BillingForm/>} />
       </Routes>
     </Router>
   );

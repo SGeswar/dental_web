@@ -51,7 +51,7 @@ export default function LoginPage() {
         e.preventDefault();
         // if (validateForm()) {
             if (email === 'admin' && password === 'admin@123') {
-                navigate('/details');
+                navigate('/dental_web/details');
             } else {
                 setErrors({ ...errors, password: 'Invalid credentials' });
             }
